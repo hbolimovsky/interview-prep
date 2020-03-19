@@ -32,9 +32,9 @@ Below is review material I use to prepare for technical software engineering int
 - [Search](#search)
 - [Divide and Conquer](#divide-and-conquer)
 - [Integer Representation](#integer-representation)
-- [Java Data Structures](#java-data-structures)
 - [Java Specifics](#java-specifics)
-    - [Quick Review](#quick-review) 
+    - [Quick Review](#quick-review)
+    - [Java Data Structures](#java-data-structures)
     - [Abstract vs Interface](#abstract-vs-interface)
     - [Comparable](#comparable)
     - [Enum](#enum)
@@ -608,20 +608,6 @@ TODO
 
 TODO
 
-## Java Data Structures
-
-TODO: cleanup/finish
-
-- simple list: [`ArrayList`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) (O(1) for get, set, O(1) for amortized add)
-- simple list: [`LinkedList`](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) (TODO)
-- sorted list: doesn't really exist as a datastructure, could just call `Collections.sort()` on a list
-- simple set: [`HashSet`](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html) (O(1) for add, remove, contains)
-- sorted set: [`TreeSet`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html) (O(log(n)) for add, remove, contains)
-- simple map: [`HashMap`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) (O(1) for get, put)
-- sorted map: [`TreeMap`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html) (sorted via keys, O(log(n)) for containsKey, get, put and remove)
-- queue: [`Queue`](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html) (note this is an interface, need to use something like `LinkedList` to actually implement)
-- stack: [ `Stack`](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
-
 ## Java Specifics
 
 ### Quick Review
@@ -642,6 +628,20 @@ This file could be called something like `HelloWorld.java`. To compile the file 
 Resources
 
 - [Princeton Cheatsheet](https://introcs.cs.princeton.edu/java/11cheatsheet/)
+
+### Java Data Structures
+
+TODO: cleanup/finish
+
+- simple list: [`ArrayList`](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html) (O(1) for get, set, O(1) for amortized add)
+- simple list: [`LinkedList`](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html) (TODO)
+- sorted list: doesn't really exist as a datastructure, could just call `Collections.sort()` on a list
+- simple set: [`HashSet`](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html) (O(1) for add, remove, contains)
+- sorted set: [`TreeSet`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeSet.html) (O(log(n)) for add, remove, contains)
+- simple map: [`HashMap`](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html) (O(1) for get, put)
+- sorted map: [`TreeMap`](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html) (sorted via keys, O(log(n)) for containsKey, get, put and remove)
+- queue: [`Queue`](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html) (note this is an interface, need to use something like `LinkedList` to actually implement)
+- stack: [ `Stack`](https://docs.oracle.com/javase/7/docs/api/java/util/Stack.html)
 
 ### Abstract vs Interface
 

@@ -5,7 +5,7 @@ public class BinarySearch {
 	public static void main(String[] args) {
 		// Integer[] example = {10, 11, 12, 14, 15};
 		Integer[] example = {10, 11, 12, 14};
-		int index = binarySearch(example, 10);
+		int index = binarySearch(example, 11);
 		System.out.println("index: " + index);
 	}
 
